@@ -191,3 +191,39 @@ body {
     }
 
 }
+
+body {
+    font-family: Arial, sans-serif;
+
+    background: #eaf2f8;
+
+    color: #263238;
+
+    overflow: hidden;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* CABEÇALHO */
+
+#interface {
+    background: #263238;
+
+    color: white;
+
+    padding: 12px 20px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 20px;
+
+    z-index: 2;
+}
